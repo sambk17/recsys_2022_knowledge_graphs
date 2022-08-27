@@ -14,3 +14,29 @@ I am learning about Knowledge Graphs and how this can be cohesively integrated w
     * [e-commerce (Amazon-Cellphones)](https://www.kaggle.com/datasets/grikomsn/amazon-cell-phones-reviews) # Source Link to be confirmed at the conference
 * KARS (workshop)
   * none
+
+
+# Textual explanations using PGPR and CAFE
+
+## What is PGPR?
+* Yikun Xian (et al) proposed a method called Policy-Guided Path Reasoning (PGPR)
+* This method couples recommendation and interpretability by providing actual paths in a knowledge graph.
+* Paper and GitHub source located [HERE](https://github.com/orcax/PGPR)
+
+## What is CAFE?
+* Agustín Borrego (et al) proposed a method called Completion using Neighborhood-Aware Features
+* CAFE helps generate feature vectors using context-aware features as well as the datasets downloaded in the pre-req
+* Paper and GitHub source located [HERE](https://github.com/DEAL-US/CAFE)
+```
+@article{borrego2021CAFE,
+  author = {Borrego, Agust{\'i}n and Ayala, Daniel and Hern{\'a}ndez, Inma and Rivero, Carlos R. and Ruiz, David},
+  title = {{CAFE}: Knowledge graph completion using neighborhood-aware features},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume = {103},
+  pages = {104302},
+  year = {2021},
+  issn = {0952-1976},
+  doi = {10.1016/j.engappai.2021.104302},
+  url = {https://www.sciencedirect.com/science/article/pii/S0952197621001500}
+}
+```
